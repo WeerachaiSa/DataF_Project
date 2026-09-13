@@ -1,0 +1,1 @@
+export default { content: ['./index.html', './src/**/*.{js,jsx}'], theme: { extend: { colors: { navy: '#0F2444', brand: '#1D70EA', canvas: '#F8FAFC', amber: '#F59E0B', emerald: '#10B981' }, borderRadius: { card: '10px' } } }, plugins: [] };

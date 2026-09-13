@@ -1,0 +1,191 @@
+{
+  "name": "DataF conceptual student dormitory",
+  "source": "scripts/generate-dormitory-model.mjs",
+  "license": "Original project-authored geometry; Draco decoder notices in draco/README.md",
+  "compression": "KHR_draco_mesh_compression",
+  "modelBytes": 58952,
+  "rooms": 18,
+  "floors": 3,
+  "meshGroups": 23,
+  "triangles": 6408,
+  "textures": 0,
+  "parts": [
+    {
+      "name": "foundation-and-community-garden",
+      "triangles": 576,
+      "assemblyOrder": 0,
+      "category": "foundation"
+    },
+    {
+      "name": "floor-1-structural-frame",
+      "triangles": 48,
+      "assemblyOrder": 1,
+      "category": "structure",
+      "floor": 1
+    },
+    {
+      "name": "room-1-furnished",
+      "triangles": 288,
+      "assemblyOrder": 2,
+      "category": "room",
+      "floor": 1,
+      "slot": 0
+    },
+    {
+      "name": "room-2-furnished",
+      "triangles": 288,
+      "assemblyOrder": 3,
+      "category": "room",
+      "floor": 1,
+      "slot": 1
+    },
+    {
+      "name": "room-3-furnished",
+      "triangles": 288,
+      "assemblyOrder": 4,
+      "category": "room",
+      "floor": 1,
+      "slot": 2
+    },
+    {
+      "name": "room-4-furnished",
+      "triangles": 288,
+      "assemblyOrder": 5,
+      "category": "room",
+      "floor": 1,
+      "slot": 3
+    },
+    {
+      "name": "room-5-furnished",
+      "triangles": 288,
+      "assemblyOrder": 6,
+      "category": "room",
+      "floor": 1,
+      "slot": 4
+    },
+    {
+      "name": "room-6-furnished",
+      "triangles": 288,
+      "assemblyOrder": 7,
+      "category": "room",
+      "floor": 1,
+      "slot": 5
+    },
+    {
+      "name": "floor-2-structural-frame",
+      "triangles": 216,
+      "assemblyOrder": 8,
+      "category": "structure",
+      "floor": 2
+    },
+    {
+      "name": "room-7-furnished",
+      "triangles": 288,
+      "assemblyOrder": 9,
+      "category": "room",
+      "floor": 2,
+      "slot": 0
+    },
+    {
+      "name": "room-8-furnished",
+      "triangles": 288,
+      "assemblyOrder": 10,
+      "category": "room",
+      "floor": 2,
+      "slot": 1
+    },
+    {
+      "name": "room-9-furnished",
+      "triangles": 288,
+      "assemblyOrder": 11,
+      "category": "room",
+      "floor": 2,
+      "slot": 2
+    },
+    {
+      "name": "room-10-furnished",
+      "triangles": 288,
+      "assemblyOrder": 12,
+      "category": "room",
+      "floor": 2,
+      "slot": 3
+    },
+    {
+      "name": "room-11-furnished",
+      "triangles": 288,
+      "assemblyOrder": 13,
+      "category": "room",
+      "floor": 2,
+      "slot": 4
+    },
+    {
+      "name": "room-12-furnished",
+      "triangles": 288,
+      "assemblyOrder": 14,
+      "category": "room",
+      "floor": 2,
+      "slot": 5
+    },
+    {
+      "name": "floor-3-structural-frame",
+      "triangles": 216,
+      "assemblyOrder": 15,
+      "category": "structure",
+      "floor": 3
+    },
+    {
+      "name": "room-13-furnished",
+      "triangles": 288,
+      "assemblyOrder": 16,
+      "category": "room",
+      "floor": 3,
+      "slot": 0
+    },
+    {
+      "name": "room-14-furnished",
+      "triangles": 288,
+      "assemblyOrder": 17,
+      "category": "room",
+      "floor": 3,
+      "slot": 1
+    },
+    {
+      "name": "room-15-furnished",
+      "triangles": 288,
+      "assemblyOrder": 18,
+      "category": "room",
+      "floor": 3,
+      "slot": 2
+    },
+    {
+      "name": "room-16-furnished",
+      "triangles": 288,
+      "assemblyOrder": 19,
+      "category": "room",
+      "floor": 3,
+      "slot": 3
+    },
+    {
+      "name": "room-17-furnished",
+      "triangles": 288,
+      "assemblyOrder": 20,
+      "category": "room",
+      "floor": 3,
+      "slot": 4
+    },
+    {
+      "name": "room-18-furnished",
+      "triangles": 288,
+      "assemblyOrder": 21,
+      "category": "room",
+      "floor": 3,
+      "slot": 5
+    },
+    {
+      "name": "roof-and-shared-facilities",
+      "triangles": 168,
+      "assemblyOrder": 23,
+      "category": "roof"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "dataf-dormitory",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n API,WEB \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build -w client",
+    "start": "npm start -w server",
+    "db:init": "node scripts/init-db.mjs",
+    "db:start": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/local-db.ps1 start",
+    "db:stop": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/local-db.ps1 stop",
+    "test": "npm test -w server",
+    "test:smoke": "node scripts/smoke.mjs",
+    "test:browser": "node scripts/browser-check.mjs",
+    "test:home": "node scripts/home-check.mjs",
+    "model:build": "node scripts/generate-dormitory-model.mjs"
+  },
+  "devDependencies": {
+    "@gltf-transform/core": "^4.5.0",
+    "@gltf-transform/extensions": "^4.5.0",
+    "@gltf-transform/functions": "^4.5.0",
+    "@playwright/test": "^1.63.0",
+    "concurrently": "^9.2.0",
+    "draco3dgltf": "^1.5.7"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
