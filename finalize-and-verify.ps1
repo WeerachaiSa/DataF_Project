@@ -85,7 +85,7 @@ Get-CimInstance Win32_Process -Filter "Name='node.exe'" -ErrorAction SilentlyCon
     try { Stop-Process -Id $_.ProcessId -Force; Ok "ปิดโปรเซส node เดิม (PID $($_.ProcessId))" } catch {}
   }
 
-Start-Process -FilePath 'npm' -ArgumentList 'run','dev' -WindowStyle Normal
+Start-Process -FilePath 'npm' -ArgumentList 'run','dev' -WindowStyle Normal -WorkingDirectory $root
 Ok "สั่ง npm run dev ในหน้าต่างใหม่แล้ว (ปล่อยหน้าต่างนั้นเปิดไว้ระหว่างใช้งาน)"
 
 Write-Host "  รอ API/Frontend เริ่มทำงาน..." -ForegroundColor DarkGray
